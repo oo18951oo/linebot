@@ -1,1 +1,1 @@
-web: python {linechat}.py
+web: gunicorn app:app
