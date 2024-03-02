@@ -6,8 +6,8 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 #line token
-channel_access_token = '{2003864378}'
-channel_secret = '{01b3a79cab72f66add56d5229673b4cb}'
+channel_access_token = '2003864378'
+channel_secret = '01b3a79cab72f66add56d5229673b4cb'
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
 
